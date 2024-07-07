@@ -1,0 +1,545 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    z-index: 1;
+}
+.menu>nav{
+    width: 100%;
+    height: 10px;
+}
+.menu>nav>ul{
+    height: inherit;
+    width: 65%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.menu>nav>ul>li{
+    width: 200px;
+    height: inherit;
+    line-height: 60px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.menutwo{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.menutwo>nav{
+    width: 100%;
+    height: 10px;
+}
+.menutwo>nav>ul{
+    height: inherit;
+    width: 68%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.menutwo>nav>ul>li{
+    width: 200px;
+    height: inherit;
+    line-height: 60px;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+.kkk>img{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 25px;
+    left: 170px;
+}
+.hrtwo{
+    width: 100%;
+    color: gray;
+    height: 0.3px;
+}
+.menu>nav>ul>li>button{
+    background-color: rgb(255, 208, 0);
+    width: 120px;
+    height: 40px;
+    border: 1px rgb(255, 208, 0);
+    border-radius: 4px;
+    font-size: 15px;
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+}
+.main{
+    width: 100%;
+    height: 3900px;
+}
+.one{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.one>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1one{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2one{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 210px;
+    line-height: 25px;
+}
+.pone{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 370px;
+    line-height: 15px; 
+}
+.buone{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 220px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 450px;
+    cursor: pointer;
+}
+.two{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    position: relative;
+}
+.two>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1two{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2two{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 165px;
+    line-height: 25px;
+}
+.ptwo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 300px;
+    line-height: 15px; 
+}
+.butwo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 380px;
+    cursor: pointer;
+}
+.three{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.three>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1three{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2three{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 200px;
+    line-height: 25px;
+}
+.pthree{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 410px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 310px;
+    line-height: 15px; 
+}
+.buthree{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 450px;
+    cursor: pointer;
+}
+.four{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    position: relative;
+}
+.four>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1four{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2four{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 165px;
+    line-height: 25px;
+}
+.pfour{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 300px;
+    line-height: 15px; 
+}
+.bufour{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 280px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 480px;
+    cursor: pointer;
+}
+.five{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.five>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1five{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2five{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 165px;
+    line-height: 25px;
+}
+.pfive{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 250px;
+    line-height: 15px; 
+}
+.bufive{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 210px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 360px;
+    cursor: pointer;
+}
+.six{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+.six>img{
+    width: 780px;
+    height: 350px;
+    position: absolute;
+    left: 160px;
+    top: 75px;
+}
+.h1six{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    position: absolute;
+    left: 960px;
+    top: 65px;
+    color: rgb(27, 27, 27);
+}
+.h2six{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    font-size: 15px;
+    position: absolute;
+    left: 960px;
+    top: 135px;
+    line-height: 25px;
+}
+.psix{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    font-size: 10px;
+    position: absolute;
+    left: 960px;
+    top: 240px;
+    line-height: 15px; 
+}
+.busix{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 208, 0);
+    border: rgb(255, 208, 0) ;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    position: absolute;
+    left: 960px;
+    top: 320px;
+    cursor: pointer;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    left: 190px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    left: 505px;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    line-height: 30px;
+    position: absolute;
+    left: 820px;
+}
+.h6one{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    left: 1135px;
+}
+.main>img{
+    width: 320px;
+    height: 55px;
+    position: absolute;
+    left: 1010px;
+    top: 3610px;
+    cursor: pointer;
+}
+.hrone{
+    width: 1200px;
+    color: gray;
+    position: absolute;
+    top: 3680px;
+    left: 170px;
+}
+.h6two{
+    position: absolute;
+    top: 3690px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 200px;
+    word-spacing: 50px;
+}
+.picture>img{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: 990px;
+    top: 3725px;
+}
+.h6three{
+    position: absolute;
+    top: 3690px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 1100px;
+    width: 300px;
+}
+.h6four{
+    position: absolute;
+    top: 3730px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 200px;
+}
+.aaa{
+    position: absolute;
+    top: 3790px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    left: 200px;
+}
+.location{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(211, 0, 0);
+    left: 1008px;
+    top: 17px;
+    cursor: pointer;
+}
+.search{
+    color: rgb(90, 90, 90);
+    position: absolute;
+    top: 21px;
+    left: 925px;
+    cursor: pointer;
+}
+.facebook{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: 450px;
+    cursor: pointer;
+}
+.twitter{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 240px;
+    top: 430px;
+    cursor: pointer;
+}
+.youtube{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 280px;
+    top: 407px;
+    cursor: pointer;
+}
+.instagram{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 320px;
+    top: 385px;
+    cursor: pointer;
+}
+.tumblr{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 360px;
+    top: 362px;
+    cursor: pointer;
+}
+.spotify{
+    color: rgb(66, 66, 66);
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    top: 340px;
+    cursor: pointer;
+}
